@@ -93,8 +93,8 @@ class matrice:
 				continue
 
 			if highter==right:
-				alignement1.insert(0,self.x[i-1])
-				alignement2.insert(0,"-")
+				alignement2.insert(0,self.x[i-1])
+				alignement1.insert(0,"-")
 				i=i-1
 				j=j
 				continue
